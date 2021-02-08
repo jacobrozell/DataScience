@@ -1,0 +1,5 @@
+# Log started 2021-02-04 10:44
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open /Users/jrozell/Desktop/Data/Udemy/2_Modeling/P12-SalaryData.csv
+summary YearsExperience

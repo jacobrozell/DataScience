@@ -1,0 +1,9 @@
+# Log started 2021-02-09 12:57
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open \
+  C:\Users\magra\Desktop\DataScience-main\Udemy\4_LogisticRegression\P12-Email-Offer.gdt
+# model 1
+logit TookAction 0 Age Female --p-values
+# model 2
+logit TookAction 0 Age Male --p-values

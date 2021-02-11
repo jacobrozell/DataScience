@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,pdftex]{geometry}
+\usepackage{longtable}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+Model 5: Logit, using observations 1--10000\\
+Dependent variable: Exited\\
+Standard errors based on Hessian
+
+\vspace{1em}
+
+\begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}
+  &
+ \multicolumn{2}{c}{Coefficient} &
+  \multicolumn{2}{c}{Std.\ Error} &
+   \multicolumn{2}{c}{$z$} &
+    \multicolumn{2}{c}{p-value} \\[1ex]
+const &
+  $-$3&89591 &
+    0&235717 &
+      $-$16&53 &
+        0&0000 \\
+CreditScore &
+  $-$0&000666426 &
+    0&000280263 &
+      $-$2&378 &
+        0&0174 \\
+Age &
+  0&0727016 &
+    0&00257462 &
+      28&24 &
+        0&0000 \\
+Tenure &
+  $-$0&0159836 &
+    0&00934933 &
+      $-$1&710 &
+        0&0873 \\
+Balance &
+  2&65326\textrm{e--06} &
+    5&13979\textrm{e--07} &
+      5&162 &
+        0&0000 \\
+NumOfProducts &
+  $-$0&100475 &
+    0&0471176 &
+      $-$2&132 &
+        0&0330 \\
+IsActiveMember &
+  $-$1&07509 &
+    0&0576636 &
+      $-$18&64 &
+        0&0000 \\
+Female &
+  0&528981 &
+    0&0544804 &
+      9&710 &
+        0&0000 \\
+Germany &
+  0&762059 &
+    0&0633400 &
+      12&03 &
+        0&0000 \\
+\end{tabular}
+
+\vspace{1ex}
+\begin{tabular}{lrlr}
+Mean dependent var &  0.203700 & S.D. dependent var &  0.402769 \\
+McFadden $R^2$ &  0.152978 & Adjusted $R^2$ &  0.151197 \\
+Log-likelihood & $-$4281.605 & Akaike criterion &  8581.210 \\
+Schwarz criterion &  8646.103 & Hannan--Quinn &  8603.176 \\
+\end{tabular}
+
+
+\vspace{1ex}
+\vspace{1em}
+\begin{raggedright}
+Number of cases `correctly predicted' = 8115 (81.2 percent)\\
+Likelihood ratio test: $\chi^2(8)$ = 1546.573 [0.0000]\\
+\end{raggedright}
+
+\end{center}
+
+\end{document}

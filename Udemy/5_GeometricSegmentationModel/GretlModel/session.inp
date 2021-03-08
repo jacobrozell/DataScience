@@ -1,0 +1,11 @@
+# Log started 2021-03-07 19:30
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open \
+  C:\Users\magra\Desktop\DataScience\Udemy\5_GeometricSegmentationModel\GretlModel\P12-Churn-Modelling.gdt
+# model 1
+logit Exited 0 CreditScore Age Tenure NumOfProducts IsActiveMember Female \
+  Germany Log_Balance --p-values
+# model 2
+logit Exited 0 CreditScore Age Tenure NumOfProducts IsActiveMember Female \
+  Germany Log_Balance --p-values
